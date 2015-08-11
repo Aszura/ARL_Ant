@@ -1,0 +1,38 @@
+﻿Build started 11.08.2015 15:48:54.
+     1>Project "J:\VS2013Projects\ARL_Ant\ARL_Ant\ARL_Ant.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AISystem.cpp ComponentDataModel.cpp EventManager.cpp FieldSystem.cpp Game.cpp InputSystem.cpp main.cpp RenderGLSystem.cpp Shader.cpp SpriteAnimationSystem.cpp SpriteBatch.cpp Texture.cpp TextureLoader.cpp
+         TextureLoader.cpp
+         Texture.cpp
+         SpriteBatch.cpp
+         SpriteAnimationSystem.cpp
+         Shader.cpp
+         RenderGLSystem.cpp
+         main.cpp
+         InputSystem.cpp
+         Game.cpp
+         FieldSystem.cpp
+         EventManager.cpp
+         ComponentDataModel.cpp
+         AISystem.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\VS2013Projects\ARL_Ant\Debug\ARL_Ant.exe" /INCREMENTAL /NOLOGO OpenGL32.lib Glu32.lib glew32.lib "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" FreeImage.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"J:\VS2013Projects\ARL_Ant\Debug\ARL_Ant.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\VS2013Projects\ARL_Ant\Debug\ARL_Ant.lib" /MACHINE:X86 Debug\AISystem.obj
+         Debug\ComponentDataModel.obj
+         Debug\EventManager.obj
+         Debug\FieldSystem.obj
+         Debug\Game.obj
+         Debug\InputSystem.obj
+         Debug\main.obj
+         Debug\RenderGLSystem.obj
+         Debug\Shader.obj
+         Debug\SpriteAnimationSystem.obj
+         Debug\SpriteBatch.obj
+         Debug\Texture.obj
+         Debug\TextureLoader.obj
+         ARL_Ant.vcxproj -> J:\VS2013Projects\ARL_Ant\Debug\ARL_Ant.exe
+     1>Done Building Project "J:\VS2013Projects\ARL_Ant\ARL_Ant\ARL_Ant.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.28

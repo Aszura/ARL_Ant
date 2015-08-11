@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\EventManager">
+      <UniqueIdentifier>{f9b1c8fe-d352-4c5a-858e-7121ac8f0ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\EventManager\Events">
+      <UniqueIdentifier>{8f129c21-575a-4f7a-ac7f-9aff5d6ee626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Systems">
+      <UniqueIdentifier>{bac0b3f6-1044-4df3-aed2-38152aee5bb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Components">
+      <UniqueIdentifier>{80b3a32e-6f61-4dd3-9a34-f4537c5f67ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Enums">
+      <UniqueIdentifier>{e1ba8768-fc6b-48cd-8b88-6797e06da487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Systems">
+      <UniqueIdentifier>{0d3cd4c4-89d5-4d36-9553-dafcaabb1a63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{e2c6aeaa-b99a-482d-a31a-8c6f9b294bb8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SpriteBatch.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentDataModel.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="AISystem.h">
+      <Filter>Headerdateien\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseComponent.h">
+      <Filter>Headerdateien\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseSystem.h">
+      <Filter>Headerdateien\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeGameStatusEvent.h">
+      <Filter>Headerdateien\EventManager\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderComponent.h">
+      <Filter>Headerdateien\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteEntityEvent.h">
+      <Filter>Headerdateien\EventManager\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionEnum.h">
+      <Filter>Headerdateien\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyComponent.h">
+      <Filter>Headerdateien\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Headerdateien\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EventType.h">
+      <Filter>Headerdateien\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldComponent.h">
+      <Filter>Headerdateien\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldSystem.h">
+      <Filter>Headerdateien\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="GameModeEnum.h">
+      <Filter>Headerdateien\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStatusEnum.h">
+      <Filter>Headerdateien\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="GoalSetEvent.h">
+      <Filter>Headerdateien\EventManager\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadSceneEvent.h">
+      <Filter>Headerdateien\EventManager\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseClickEvent.h">
+      <Filter>Headerdateien\EventManager\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="MousePositionEvent.h">
+      <Filter>Headerdateien\EventManager\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementEvent.h">
+      <Filter>Headerdateien\EventManager\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFinishedEvent.h">
+      <Filter>Headerdateien\EventManager\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="RecalculateFieldEvent.h">
+      <Filter>Headerdateien\EventManager\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterComponentEvent.h">
+      <Filter>Headerdateien\EventManager\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="ResizeScreenEvent.h">
+      <Filter>Headerdateien\EventManager\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowMessageEvent.h">
+      <Filter>Headerdateien\EventManager\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="StartSetEvent.h">
+      <Filter>Headerdateien\EventManager\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="StartSpriteAnimationEvent.h">
+      <Filter>Headerdateien\EventManager\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="StopSpriteAnimationEvent.h">
+      <Filter>Headerdateien\EventManager\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="IEvent.h">
+      <Filter>Headerdateien\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IEventListener.h">
+      <Filter>Headerdateien\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteAnimationComponent.h">
+      <Filter>Headerdateien\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>Headerdateien\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteComponent.h">
+      <Filter>Headerdateien\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderGLSystem.h">
+      <Filter>Headerdateien\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>Headerdateien\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteAnimationSystem.h">
+      <Filter>Headerdateien\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyEvent.h">
+      <Filter>Headerdateien\EventManager\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="StepEvent.h">
+      <Filter>Headerdateien\EventManager\Events</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SpriteBatch.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentDataModel.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="AISystem.cpp">
+      <Filter>Quelldateien\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldSystem.cpp">
+      <Filter>Quelldateien\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem.cpp">
+      <Filter>Quelldateien\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderGLSystem.cpp">
+      <Filter>Quelldateien\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteAnimationSystem.cpp">
+      <Filter>Quelldateien\Systems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SpriteShader.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="SpriteShader.vert">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>

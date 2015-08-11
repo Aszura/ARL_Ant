@@ -1,0 +1,9 @@
+#pragma once
+
+enum DirectionEnum
+{
+	DIRECTION_UP = 0,
+	DIRECTION_LEFT,
+	DIRECTION_DOWN,
+	DIRECTION_RIGHT
+};
